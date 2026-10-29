@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		26511B7230938781001277F1 /* Nearby_Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nearby_Network.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26511B8930938970001277F1 /* Nearby-Network-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nearby-Network-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -30,6 +31,7 @@
 		26511B6930938781001277F1 = {
 			isa = PBXGroup;
 			children = (
+				26511B8930938970001277F1 /* Nearby-Network-Info.plist */,
 				26511B7430938781001277F1 /* Nearby_Network */,
 				26511B7330938781001277F1 /* Products */,
 			);
@@ -241,13 +243,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR22DC4XWB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nearby-Network-Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Este aplicativo precisa de acesso à rede local para localizar e conectar os iPhones dos jogadores na mesma partida.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Este aplicativo utiliza a tecnologia Ultra Wideband para validar a entrada na partida através da aproximação física dos aparelhos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -272,13 +279,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PR22DC4XWB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nearby-Network-Info.plist";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Este aplicativo precisa de acesso à rede local para localizar e conectar os iPhones dos jogadores na mesma partida.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Este aplicativo utiliza a tecnologia Ultra Wideband para validar a entrada na partida através da aproximação física dos aparelhos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
